@@ -5,11 +5,26 @@
   font-family: "poppins" sans-serif;
 }
 
+main{
+  padding: 10px 5% ;
+}
+
 /* NAVBAR */
 .navbar{
   display: flex;
   justify-content: space-between;
+  padding: 0 5%;
 }
+
+.logo{
+  display: flex;
+}
+
+.logo h3{
+  
+}
+
+
 
 
 
@@ -22,8 +37,8 @@
   margin-top: 2rem;
   
 }
- img{
-    width: 78%;
+.hero img{
+    width: 100%;
  }
 .hero-text {
   position: absolute;
