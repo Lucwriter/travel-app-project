@@ -15,7 +15,7 @@ body{
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  /* padding: 3rem; */
+ 
 }
 /* .header-btn a :active{
   background: #3498DB;
@@ -77,13 +77,8 @@ main{
   margin-top: 2rem;
   
 }
-<<<<<<< HEAD
- img{
-    width: 85%;
-=======
 .hero img{
     width: 100%;
->>>>>>> 98a9782e3e64f143a0203d22d897b0b076bef55f
  }
 .hero-text {
   position: absolute;
