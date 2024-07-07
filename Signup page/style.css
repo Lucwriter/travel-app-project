@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+}
+
+.details {
+    width: 50%;
+    padding-left: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    padding-top: 20px;
+}
+
+.logo img {
+    padding-right: 5px;
+    width: 41px;
+    height: 60.68px;
+}
+
+.logo h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.logo h3 span {
+    color: #3498DB ;
+  }
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 32px;
+    text-align: center;
+}
+
+.header p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.form form label {
+    display: block;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.form form input {
+    padding-left: 5px;
+    height: 40px;
+    margin: 5px 0;
+    width: 80%;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    background-color: #3498DB;
+    border: none;
+    padding: 5px 70px;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button p {    
+        display: block;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 16px;
+}
+
+.footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.footer a {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: #3498DB;
+}
+
+.image  {
+    width: 50%;
+    /* background-image: url(./Assets/Frame\ 1000005728.png); */
+    background-size: cover;
+}
+
+.image img {
+    width: 100%;
+    height: 100vh;
+    border-left: black solid 2px;
+    border-radius: 6px;
+}
+
+@media(max-width:720px) {
+    .image {
+        display: none;
+    }
+
+    .details{
+        width: 100%;
+    }
+
+    .form {
+        /* display: flex; */
+        flex-direction: column;
+        align-items: center;
+        padding-left: 10%;
+    }
+}
