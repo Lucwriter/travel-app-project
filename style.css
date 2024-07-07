@@ -135,19 +135,22 @@ main {
 }
 
 .hero .search div input {
-  padding: 5px 10px;
+  padding: 5px 5px;
   border-radius: 4px;
   background-color: #c4c4c466;
   border: none;
 }
 
 .hero .search div option {
-  padding: 5px 10px;
+  padding: 5px 0px;
   border-radius: 4px;
   background-color: #c4c4c466;
   border: none;
 }
 
+.hero .search .destination select{
+  width: 150px;
+}
 .hero .search div {
   margin-bottom: 40px;
 }
