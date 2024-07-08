@@ -66,15 +66,7 @@ main {
   text-decoration: underline #3498db 3px;
   color: #8d8484;
 }
-/* a {
-  text-decoration: none;
-  color: #373737;
-  font-size: 20px;
-  font-weight: 600px;
-}
-li {
-  list-style: none;
-} */
+
 /* hero search */
 .search {
   background-color: #ffffff;
@@ -115,19 +107,19 @@ li {
   margin-bottom: 40px;
 }
 
-.search button a {
+/* .search button a {
   text-decoration: none;
   color: #ffffff;
   background-color: #3498db;
   border: 1px solid #3498db;
 }
 
-.search button {
+.search button {sta
   padding-top: 70px;
   background-color: #3498db;
   padding: 7px 20px;
   border: 1px solid #3498db;
-}
+} */
 .place {
   width: 100%;
   margin-top: 50px;
@@ -218,7 +210,6 @@ span {
   gap: 0px;
   border-radius: 4px 0px 0px 0px;
   opacity: 0px;
-  
 }
 .grand-right h3 {
   font-family: Poppins;
@@ -228,5 +219,3 @@ span {
   text-align: left;
   /* background-color: blue; */
 }
-
-
